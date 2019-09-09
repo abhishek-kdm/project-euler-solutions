@@ -1,3 +1,5 @@
+-- answer: 4613732
+
 fib :: [Int]
 fib = 1 : 2 : zipWith (+) fib (tail fib)
 
