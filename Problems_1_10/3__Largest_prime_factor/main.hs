@@ -1,5 +1,6 @@
 -- answer: 6857
 
+prime :: (Int, Int) -> (Int, Bool)
 prime (x, y)
   | isPrime x = (x, True)
   | otherwise = (x, False)
